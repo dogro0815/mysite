@@ -1,0 +1,163 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: 'Monoton', cursive;
+  font-size: 5.625rem;
+  line-height: 1;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #11999E;
+}
+hr{
+
+margin: 100px auto;
+  border-style: none;
+  border-top: dotted 5px;
+  width: 8%;
+  border-color: lightgrey;
+}
+
+p {
+  font-family: 'Jura', sans-serif;
+}
+a{
+  color: #11999E;
+  font-family: 'Merriweather', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color:white;
+}
+.top-container {
+  background-color: #CDF0EA;
+  position: relative;
+}
+
+.middle-container {
+  background-color: white;
+}
+
+.bottom-container {
+  padding-bottom: 20px;
+      padding-top: 50px;
+  background-color: #CDF0EA;
+}
+
+.moon {
+  position: relative;
+  right: 400px;
+  top: 30px;
+}
+
+.astronaut {
+  position: relative;
+  left: 350px;
+  top: 100px;
+}
+
+.rocket {
+  position: absolute;
+  bottom: 150px;
+  left: 250px;
+}
+
+.cloud1 {
+  position: absolute;
+  bottom: 300px;
+  left: 600px;
+}
+
+.cloud2 {
+  position: absolute;
+  bottom: 150px;
+  right: 600px;
+}
+
+.mountain {
+  margin-top: 200px;
+}
+
+.profilpicture {
+  margin-top: 80px;
+  border-radius: 100%;
+  border-style: groove;
+}
+
+.zweiteüberschrift {
+  font-size: 2.5rem;
+}
+
+.footer-link {
+  color: #11999E;
+}
+
+.teacher {
+  border-radius: 100%;
+  width: 15%;
+  float:right;
+  margin-left: 30px;
+}
+
+.hacker {
+  border-radius: 100%;
+  width:15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-row{
+  margin: 100px auto 100px auto;
+  width: 50%;
+  line-height: 2;
+  text-align: left;
+}
+
+.beschreibung2{
+
+  text-align: right;
+}
+
+.contact-me{
+  padding-bottom: 100px;
+}
+.btn {
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: 'Merriweather', serif;
+  color: #fafafa;
+  font-size: 31px;
+  background: #11999E;
+  padding: 9px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f8fc00;
+  background-image: -webkit-linear-gradient(top, #f8fc00, #141411);
+  background-image: -moz-linear-gradient(top, #f8fc00, #141411);
+  background-image: -ms-linear-gradient(top, #f8fc00, #141411);
+  background-image: -o-linear-gradient(top, #f8fc00, #141411);
+  background-image: linear-gradient(to bottom, #f8fc00, #141411);
+  text-decoration: none;
+}
+.copyright{
+  color: grey;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
